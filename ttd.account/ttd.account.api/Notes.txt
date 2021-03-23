@@ -1,0 +1,57 @@
+﻿Urls
+
+https://sayganov.medium.com/net-core-rabbitmq-part-1-8da5e718d9dc
+
+
+
+Run This Series. ***********
+
+https://www.programmingwithwolfgang.com/microservice-series-from-zero-to-hero
+
+https://www.programmingwithwolfgang.com/rabbitmq-in-an-asp-net-core-3-1-microservice/
+
+=====================================================================================================================================================================================================================================================
+
+/* METADATA */
+
+// https://www.programmingwithwolfgang.com/microservices-getting-started
+
+Microservices - Getting Started
+
+What is a Microservice?
+*As the name already suggests, a microservice is very small. The opinions on how small vary. Some say not more than a hundred lines, some say that it should do one thing.
+
+Why are Microservices so popular?
+*The most important aspect of a microservice is that it works completely independently. This means that a microservice has its own database (or other storage). 
+ This is very important because this guarantees that changes in other services won’t break the microservice.
+
+*To achieve this high availability you must not couple services together and keep the connections loose.
+ This loose connection can be achieved by using message systems like RabbitMQ, Azure Queue or Azure Service Bus.
+
+ Advantages of Microservices
+ ----------------------------
+ 1.Easy to build and maintain
+ 2.Easy deployment
+ 3.New features can be implemented fast
+ 4.Usage of different technologies
+ 5.Teams can focus and specialize on one domain
+ 6.Better scalability and resource usage
+ 
+ Disadvantages of Microservices
+ ----------------------------
+ 1.Increased complexity
+ 2.Latency
+ 3.Data consistency
+ 4.Debugging is harder
+ 5.Cascading of problems to other services
+ 6.Handling of the messages in the queue
+
+ [Do a first episode on this.]
+
+
+ Conclusion
+ Today, I tried to give a short overview of the theory of microservices. Microservices have advantages but also disadvantages compared to monolithic applications. 
+ In the end, there is no perfect solution and you should think about the requirements of your project and then decide if microservices are the way to go. 
+ I would also recommend starting with a small project and gain some experience in running them.
+
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
